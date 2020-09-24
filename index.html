@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="A Simple Name Tag">
     <link rel="stylesheet" href="style.css">
@@ -10,7 +11,13 @@
     <main>
         <header>Hello</header>
         <p>my name is...</p>
-        <section class="flex-center">Sydney James</section>
+        <section id="newName"></section>
     </main>
+    <footer>        
+        <input type="text" id="input" value="Enter Name...">
+        <button id="nameButton" onclick="changeName()">Click Here!</button>
+        <p id="demo"></p>
+    </footer>
 </body>
+<script type="module" src="app.js"></script>
 </html>
